@@ -1,2 +1,2 @@
-# Coin-Flip-Game
+# Simple Coin-Flip Game Script
 
