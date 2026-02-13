@@ -11,13 +11,14 @@ config_version=5
 [application]
 
 config/name="Coin_Flip"
+run/main_scene="uid://va5fwaseqhn1"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=2000
-window/size/viewport_height=1500
+window/size/viewport_width=720
+window/size/viewport_height=1080
 
 [physics]
 
