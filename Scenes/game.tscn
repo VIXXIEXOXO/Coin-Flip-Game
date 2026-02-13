@@ -1,12 +1,14 @@
 [gd_scene format=3 uid="uid://va5fwaseqhn1"]
 
+[ext_resource type="Script" uid="uid://dsn5wljm01lij" path="res://Scripts/game.gd" id="1_3dryh"]
 [ext_resource type="Texture2D" uid="uid://bjqltysfbg7is" path="res://Assets/Button.png" id="1_wrm1d"]
 [ext_resource type="Texture2D" uid="uid://3igy7ct7aneb" path="res://Assets/Tails.png" id="2_3dryh"]
 [ext_resource type="Texture2D" uid="uid://d0kvgy4le7ftb" path="res://Assets/Heads.png" id="3_wowpa"]
 
 [node name="Game" type="Node2D" unique_id=1907776448]
+script = ExtResource("1_3dryh")
 
-[node name="TextureButton" type="TextureButton" parent="." unique_id=711202459]
+[node name="Button" type="TextureButton" parent="." unique_id=711202459]
 custom_minimum_size = Vector2(100, 100)
 anchors_preset = 8
 anchor_left = 0.5
@@ -23,12 +25,12 @@ scale = Vector2(0.7, 0.7)
 texture_normal = ExtResource("1_wrm1d")
 texture_pressed = ExtResource("1_wrm1d")
 
-[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1497084227]
-position = Vector2(1805, 555)
+[node name="Tails" type="Sprite2D" parent="." unique_id=1497084227]
+position = Vector2(-394, 612)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("2_3dryh")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1093410151]
-position = Vector2(985, 528)
+[node name="Heads" type="Sprite2D" parent="." unique_id=1093410151]
+position = Vector2(993, 467)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("3_wowpa")
